@@ -11,6 +11,16 @@
 //Base API
 static NSString * const assignmentURL = @"http://betaci.abcoeur.com/search.json.php";
 
+//Parameters
+static NSString * const para_PhotoURL = @"photo_url";
+
+static NSString * const para_Age = @"in_age";
+
+static NSString * const para_Username = @"in_pseudo";
+
+static NSString * const para_Tagline = @"bottomLine";
+
+
 
 #pragma mark - *** StoryBord Names ***
 static NSString * const storyboardOne = @"ModuleOne";

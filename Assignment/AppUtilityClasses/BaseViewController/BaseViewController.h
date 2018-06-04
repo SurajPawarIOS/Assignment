@@ -12,20 +12,13 @@
 //Librarys
 #import "MBProgressHUD.h"
 #import "AFHTTPSessionManager.h"
-#import "SDWebImage.h”
 #import "UIImageView+UIActivityIndicatorForSDWebImage.h"
-
-
+#import <SDWebImage/UIImageView+WebCache.h>
 
 //Utility Classes
 #import "NSString+AlertMessages.h"
 #import "APIConstants.h"
 #import "AppDelegate.h"
-
-
-
-
-
 
 @interface BaseViewController : UIViewController{
     MBProgressHUD *hud;

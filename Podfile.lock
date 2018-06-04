@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - MarqueeLabel (3.1.4):
+    - MarqueeLabel/ObjC (= 3.1.4)
+  - MarqueeLabel/ObjC (3.1.4)
   - MBProgressHUD (1.1.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -23,23 +26,18 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - MarqueeLabel
   - MBProgressHUD (~> 1.1.0)
   - SDWebImage (~> 3.2)
   - UIActivityIndicator-for-SDWebImage
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - AFNetworking
-    - MBProgressHUD
-    - SDWebImage
-    - UIActivityIndicator-for-SDWebImage
-
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
 
-PODFILE CHECKSUM: d7ffc2cc222585b8a8e3e5b0613b10377064b182
+PODFILE CHECKSUM: 618fff96db7fb373d5e5c00c11f8fcf0c93d323a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.4.0

@@ -14,4 +14,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *secondViewImage;
 @property (weak, nonatomic) IBOutlet UIButton *secondViewBack;
 
+@property(strong, nonatomic)NSString *imageURL;
+
+@property (weak, nonatomic) IBOutlet UIImageView *secondImageView;
+
+
 @end

@@ -11,5 +11,6 @@ target 'Assignment' do
   pod 'SDWebImage', '~> 3.2'
   pod 'UIActivityIndicator-for-SDWebImage'
   pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'MarqueeLabel'
 
 end
